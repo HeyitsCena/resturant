@@ -56,16 +56,17 @@ export const HeroP = styled.p`
 
 export const HeroBtn = styled.button`
     font-size: 1.4rem;
-    padding: 1rem 4rem;
+    cursor: pointer;
+    padding: 1rem 6rem;
     border: none;
     background: #e31837; 
-    color: #ffff;
-    transition: 0.2s ease-out;
+    color: #32CD32;
+    transition: 2s ease-out;
     
-    -
+    
     &:hover{
         background: #ffc500;
-        transition: 0.2s ease-out;
+        transition: 2s ease-out;
         cursor: pointer;
         color: #000; 
     }
