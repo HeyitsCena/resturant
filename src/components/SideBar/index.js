@@ -4,9 +4,9 @@ import { SideBarContainer, Icon, CloseIcon, SideBarMenu, SideBarLink , SideBtnWr
 './SideBarElements';
 
 
-const index = () => {
+const SideBar = ({isOpen,toggle}) => {
     return (
-        <SideBarContainer>
+        <SideBarContainer isOpen={isOpen} onClick={toggle} >
             <Icon> 
                 <CloseIcon/> 
             </Icon>
@@ -22,4 +22,4 @@ const index = () => {
     )
 }
 
-export default index
+export default SideBar;
