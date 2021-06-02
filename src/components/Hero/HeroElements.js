@@ -3,20 +3,16 @@ import imgBg from '../../images/pizza-3.png';
 
 export const HeroContainer = styled.div`
     background: linear-gradient(to left, rgba(10,100,10,0.7) , rgba(0,0,0,0.1)), url(${imgBg});
-
     Height: 100vh;
     background-position: center;
     background-size: cover;
-
-    `;
-
+`;
 
 export const HeroContent = styled.div`
     height: calc(100vh - 80px);
     max-height: 100%;
     width: 100vw;
     padding: 0rem calc((100vh - 1300px )/ 200 );
-
 `;
 
 export const HeroItems = styled.div` 
