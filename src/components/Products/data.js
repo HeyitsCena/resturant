@@ -8,7 +8,7 @@ export const productData = [
     {
         img: product1,
         alt: 'Pizza',
-        name: 'supremePizaa',
+        name: 'supreme Pizaa',
         desc: 'Mariana Sauce, basil, italian sausage, roma tomatos, olives, and pesto',
         price: '$19.95',
         button: 'Add to cart', 
