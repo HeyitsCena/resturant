@@ -3,8 +3,8 @@ import styled from 'styled-components';
 
 export const ProductsContainer = styled.div`
     width: 100vw;
-    min-height: 1000vh;
-    padding: 5rem calc((100vw - 1300px) /2 );
+    min-height: 100vh;
+    padding: 1rem calc((100vw - 1300px) /2 );
     background: #150f0f;
     color: #fff;
 
